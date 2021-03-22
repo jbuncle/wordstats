@@ -20,7 +20,6 @@ target/
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
@@ -31,3 +30,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/nbproject/
+/nb-configuration.xml
+/nbactions.xml
