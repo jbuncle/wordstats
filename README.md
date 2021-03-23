@@ -9,8 +9,7 @@ or slashes (/ and \).
 ## Running
 
 There are a number of commands available through the `./local-dev.sh` utility 
-script, otherwise you can use the commands below.
-
+script, otherwise you can run the Rest API (on http://localhost:8080/) using the commands below.
 
 ### Run with Maven
 
@@ -24,6 +23,7 @@ mvn spring-boot:run
 docker build -t wordstats .
 docker run --rm -it -p8080:8080 wordstats
 ```
+
 
 
 ## Code Structure/Design
